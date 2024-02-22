@@ -342,7 +342,6 @@ width : 100%
 }
 .right4 h1 span{
     font-size: 150px;
-    /* font-weight: 600; */
 }
 .right4 p{
     font-family: marthree;
@@ -705,4 +704,425 @@ footer .foootr{
     align-items: center;
     padding-right: 20px;
     justify-content: space-between;
+}
+@media (max-width:600px ){
+    .page1{
+        height: 80vh;
+        padding: 0;
+    }
+    .nav{
+        height: 8vh;
+    }
+    .nav img{
+        width: 30%;
+    }
+    .nav h4{
+        font-size: 3vw;
+    }
+    .elems{
+        height: 200px;
+        padding:2vw 2vw;
+    }
+     .elem1{
+        width: 38%;
+        height: 100%;
+    }
+     .image{
+        width: 30vw;
+        height: 54%;
+    }
+    .elems .elem2{
+        width:30%;
+        height: 100%;
+    }
+    .elems .elem3{
+        width: 37%;
+        padding-left:2vw;
+    }
+    .elems h4{
+        font-size:3vw;
+    }
+    .elems h4 span{
+        font-size: 1.5vw;
+        padding: 4px;
+    }
+    .elems  p{
+        padding-top: 1vh;
+        font-size: 1.7vw;
+    }
+    .elems h2{
+        font-size: 5vw;
+    }
+    .elems h3{
+        font-size: 2vw;
+    }
+    .elems h5{
+        font-size: 1vw;
+        padding-top: 5vw;
+    }
+    .page1 h1{
+        width: 100%;
+        font-size: 245px;
+        line-height: 200px;
+        margin-left: 0px;
+        letter-spacing: -15px;
+        margin-top: 2vw;
+        padding: 0;
+    }
+    .page2{
+        width: 100%;
+        height: 100vh;
+    }
+    .left2{
+        width: 40%;
+        padding: 0 10px;
+    }
+    .left2 h2{
+        font-size: 60px;
+       line-height:1;
+    }
+    .left2 h2 span{
+        font-size:70px;
+    }
+    .left2 .img-2{
+        width: 100%;
+        height: 45%;
+    }
+    .left2 p{
+        font-size: 17px;
+      padding-top: 2vw;
+    }
+    .left2 p span{
+        font-size: 45px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .right2{
+        width: 75%;
+        padding: 0 10px;
+        background-position: right;
+    }
+    .right2 .img-right{
+        height: 55%;
+    }
+    .right2 h1{
+        padding-top: 35px;
+        font-size: 45px;
+    }
+    .page3{
+        padding-top: 30px;
+    }
+    .page3 h1{
+        font-size: 120px;
+        line-height: 120px;
+        letter-spacing: -5px;
+        width:70%;
+    }
+    .page3 img{
+        top: 0%;
+        right: 5%;
+         height: 170px;
+    }
+    .page4{
+        height: 100vh;
+    }
+    .left4{
+        height: 100%;
+        width: 65%;
+    }
+    .left4 .top4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 25%;
+        padding-top: 30px;
+    }
+    .left4 .top4 .elem4 {
+        width: 40%;
+        height: 100%;
+        padding: 8px 7px;
+        border-right: 1px solid #222;
+    }
+    .left4 .top4 .elem4 h2{
+        font-size: 22px;
+       color: black;
+    }
+    .left4 .top4 .elem4 h3{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .left4 .top4 .elem4 h5{
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    .left4 .top4 .elem5 {
+        width: 60%;
+        padding: 10px 20px;
+    }
+    .left4 .top4 .elem5 .image4{
+        width:10%;
+        height: 60%;
+    }
+    
+    .left4 .top4 .elem5  h4{
+        font-size: 14px;
+        padding-top: 2px;
+    }
+    .left4 .top4 .elem5  p{
+        font-size: 10px;
+        padding: 0;
+        padding-top: 2px;
+    }
+    .left4 .btn4{
+        height: 68%;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .right4{
+        height: 100%;
+        width: 35%;
+        padding: 0;
+    }
+    .right4 h1{
+        font-size: 40px;
+        letter-spacing: -2px;
+        padding-top: 37px;
+    }
+    .right4 h1 span{
+        font-size: 50px;
+    }
+    .right4 p{
+        font-size: 17px;
+       padding: 15px 20px;
+    }
+    .right4 p span{
+        font-size: 40px;
+        padding: 1px 5px;
+       margin-right: 15px;
+    }
+    .right4 .anda{
+        margin-top: 40px;
+        height: 100px;
+        width: 85%;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .anda h2{
+        font-size:32px;
+        transform: translateX(-70%);
+    }
+    .anda img{
+        height: 32px;
+        transform: translateX(-150%);
+    }
+    .anda:hover img{
+        transform: translateX(37%);
+    }
+    .anda:hover h2{
+        transform: translateX(150%);
+    }
+    .page5{
+        height: 65vh;
+    }
+    .nav5{
+        width: 100%;
+        height: 17%;
+        padding: 0 10px;
+    }
+    .nav5 .texts{
+        height: 80%;
+    }
+    .texts h2{
+        font-size: 10px;
+    }
+    .texts h1{
+        font-size: 28px;
+    }
+    .num {
+        font-size: 42px;
+    }
+    .center5{
+        height:75% ;
+        padding: 0;
+    }
+    .center5 .left5{
+        height: 100%;
+        width: 50%;  
+        padding: 0;
+    }
+    .center5 .left5 .top5{
+        padding-top: 0;
+    }
+    .center5 .left5 .top5 img {
+        height: 150px;
+        width: 200px;
+    }
+    .left5 .top5 h1{
+        font-size: 200px;
+        font-family: martwo;
+        padding-left: 10px;
+        letter-spacing: -10px;
+    }
+    .left5 .pi{
+        height: 40%;
+        width: 100%;
+    }
+    .left5 .pi h1{
+        font-size:200px;
+        margin-top: -10%;
+        letter-spacing: -10px;
+    }
+    .center5 .right5{
+        height: 80%;
+        width: 45%;
+       margin-top: 0%;
+    }
+    .page6{
+        height: 50vh;
+    }
+    .top6{
+        width: 100%;
+        height: 35%; 
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+    .top6 img{
+        height: 142px;
+        width: 110px;
+    }
+    .page6 h1{
+        font-size: 200px;
+        letter-spacing: -11px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn6{
+        height: 59%;
+        padding-left: 5px;
+    }
+    .btn6 #artist{
+        width: 340px;
+        font-size: 120px;
+        letter-spacing: -4px;
+       height:130px;
+    }
+    .para {
+        padding-top: 1vw;
+    }
+    .para p{
+         font-size: 12px;
+        padding: 0vh 3vw;
+    }
+    .para h2{
+        font-size: 45px;
+        padding-left: 15px;
+        letter-spacing: -4px;
+    }
+    .page7{
+        height: 30vh;
+        width: 100%;
+        background-color: #cac1b6;
+    }
+    .center7 {
+        padding-left: 2px;
+    }
+    .center7 .cen{
+        height: 100%;
+        width: 40%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center7 #cen2{
+        left: 25%;
+        width: 40%;
+    }
+    .cen .text6{
+        height: 99%;
+        width: 95%;
+        padding: 0px;
+    }
+    .center7 .cen p{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .center7 .cen img{
+        height: 28px;
+        margin-left: 5px;
+    }
+    .center7 .cen h1{
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .center7 .cen h2{
+        opacity: .6;
+        font-size: 9px;
+        font-family: mar;
+        padding-left: 35px;
+
+    }
+    .center7 .cen .tex-btn{
+        padding-top: 23px;
+    }
+    .center7 .cen:nth-child(3){
+        left: 45%;
+        width: 40%;
+    }
+    .center7 .cen:nth-child(4){
+        left: 65%;
+        width: 40%;
+    }
+    .page8{
+        height: 60vh;
+        width: 100%;
+        padding-top:4vw;
+        background-color: #cac1b6;
+    }
+   .page8 #page8-elem{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        align-items: center;
+        padding:3vh 2.5vw;
+    }
+    #page8-elem .image{
+        height: 80px;
+        width: 160px;
+    }
+    .footer{
+        height: 90px;
+        padding: 5px 10px;
+        margin-top: 6vw;
+    }
+    .footer h1{
+        font-size:7vw;
+    }
+
+    footer{
+        padding: 0 2vw;
+        margin-top: 3vw;
+    }
+    footer .foootl{
+        width: 20%;
+    }
+    footer .foootl img{
+        height: 30px;
+    }
+    footer h4{
+        font-size: 2.5vw;
+    
+    }
+    footer h5{
+        font-size: 15px;
+    }
+    footer .foootr{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        padding-right: 0px;
+    }
 }
