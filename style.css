@@ -705,7 +705,7 @@ footer .foootr{
     padding-right: 20px;
     justify-content: space-between;
 }
-@media (max-width:380px ){
+@media (max-width:400px ){
     .page1{
         height: 80vh;
         padding: 0;
